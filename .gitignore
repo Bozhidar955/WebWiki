@@ -1,0 +1,26 @@
+# Environment variables and secrets
+.env
+.env.*
+
+# PostgreSQL data
+postgres-data/
+
+# Grafana data
+grafana-data/
+
+# Prometheus data
+prometheus-data/
+
+# Docker volumes
+data/
+
+# Temporary files
+*.log
+*.tmp
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
